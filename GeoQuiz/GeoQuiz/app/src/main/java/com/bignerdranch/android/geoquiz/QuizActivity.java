@@ -18,6 +18,8 @@ public class QuizActivity extends AppCompatActivity {
     private Button mTrueButton;
     private Button mFalseButton;
     private Button mNextButton;
+    private boolean mIsCheater;
+    private static final String EXTRA_ANSWER_SHOWN = "answer_shown";
     private TextView mQuestionTextView;
     private static final String EXTRA_ANSWER_IS_TRUE = "answer_is_true";
     private Question[] mQuestions = new Question[]{
@@ -38,6 +40,19 @@ public class QuizActivity extends AppCompatActivity {
             messageResId = R.string.incorrect_toast;
         }
         Toast.makeText(this, messageResId, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (resultCode != Activity.RESULT_OK) {
+            return;
+        }
+        if (requestCode == REQUEST_CODE_CHEAT) {
+            if (data == null) {
+                return;
+            }
+        }
+        mIsCheater = data.getBooleanExtra(EXTRA_ANSWER_SHOWN, false);
     }
 
     @Override
