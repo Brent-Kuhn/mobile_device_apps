@@ -9,10 +9,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class Notes extends AppCompatActivity {
+
+    private String message;
+    private String Hello = "Hello ";
+    private String EnterNote = ", please enter your note";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,9 +25,9 @@ public class Notes extends AppCompatActivity {
         setContentView(R.layout.activity_notes);
 
         Intent i = getIntent();
-        String message = i.getStringExtra("my_name");
+        message = Hello.concat(i.getStringExtra("myName").concat(EnterNote));
 
-        TextView Note = findViewById(R.id.editText);
+        EditText Note = findViewById(R.id.editText);
         Note.setText(message);
     }
 }
