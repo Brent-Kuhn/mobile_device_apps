@@ -3,4 +3,6 @@
     <string name="my_name">Brent Kuhn</string>
     <string name="student_id">4669</string>
     <string name="new_note">New Note</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
 </resources>
