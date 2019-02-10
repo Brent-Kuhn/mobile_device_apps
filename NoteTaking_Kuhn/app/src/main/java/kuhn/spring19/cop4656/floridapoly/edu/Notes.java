@@ -18,6 +18,8 @@ public class Notes extends AppCompatActivity {
     private String message;
     private String Hello = "Hello ";
     private String EnterNote = ", please enter your note";
+    private Button mCancelButton;
+    private Button mSaveButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +29,33 @@ public class Notes extends AppCompatActivity {
         Intent i = getIntent();
         message = Hello.concat(i.getStringExtra("myName").concat(EnterNote));
 
-        EditText Note = findViewById(R.id.editText);
+        final EditText Note = findViewById(R.id.editText);
         Note.setText(message);
+
+        mCancelButton = (Button) findViewById(R.id.cancel_button);
+        mCancelButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View V) {
+                finish();
+            }
+        });
+
+        mSaveButton = (Button) findViewById(R.id.save_button);
+        mSaveButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View V) {
+                String FinalNote = Note.getText().toString();
+                if (FinalNote.equals("")) {
+                    Toast.makeText(Notes.this, getResources().getString(R.string.nothing), Toast.LENGTH_SHORT).show();
+                } else {
+                    Intent data = new Intent();
+                    data.putExtra("note_text", FinalNote);
+
+                    setResult(RESULT_OK, data);
+                    finish();
+                }
+//                Toast.makeText(Notes.this, FinalNote, Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
