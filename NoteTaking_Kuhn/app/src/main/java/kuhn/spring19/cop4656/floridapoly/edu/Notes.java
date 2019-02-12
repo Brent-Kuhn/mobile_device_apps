@@ -30,7 +30,7 @@ public class Notes extends AppCompatActivity {
         message = Hello.concat(i.getStringExtra("myName").concat(EnterNote));
 
         final EditText Note = findViewById(R.id.editText);
-        Note.setText(message);
+        Note.setHint(message);
 
         mCancelButton = (Button) findViewById(R.id.cancel_button);
         mCancelButton.setOnClickListener(new View.OnClickListener() {
