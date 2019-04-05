@@ -1,24 +1,40 @@
 package edu.floridapoly.cop4656.spring19.kuhn;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.widget.TextView;
+public class Note {
+    private int id;
+    private String note;
+    private String timestamp;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
+    public Note() {
+    }
 
+    public Note(int id, String note, String timestamp) {
+        this.id = id;
+        this.note = note;
+        this.timestamp = timestamp;
+    }
 
-public class Note extends AppCompatActivity {
-    private TextView dateTimeText;
-    String date = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(Calendar.getInstance().getTime());
+    public int getId() {
+        return id;
+    }
 
+    public String getNote() {
+        return note;
+    }
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_note);
+    public void setNote(String note) {
+        this.note = note;
+    }
 
-        dateTimeText = findViewById(R.id.dateTimeText);
-        dateTimeText.setText(date);
+    public String getTimestamp() {
+        return timestamp;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setTimestamp(String timestamp) {
+        this.timestamp = timestamp;
     }
 }

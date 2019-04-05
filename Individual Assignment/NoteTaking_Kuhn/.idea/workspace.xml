@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf65a986-d3dc-4a9c-af39-091a2793ff60" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/app/src/main/java/edu/floridapoly/cop4656/spring19/kuhn/DatabaseHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/app/src/main/java/edu/floridapoly/cop4656/spring19/kuhn/NoteActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/app/src/main/java/edu/floridapoly/cop4656/spring19/kuhn/NotesAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Assignment2/app/src/main/res/layout/note_container.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment2/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment2/app/src/main/java/edu/floridapoly/cop4656/spring19/kuhn/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment2/app/src/main/java/edu/floridapoly/cop4656/spring19/kuhn/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment2/app/src/main/java/edu/floridapoly/cop4656/spring19/kuhn/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment2/app/src/main/java/edu/floridapoly/cop4656/spring19/kuhn/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment2/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment2/app/src/main/res/layout/activity_note.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment2/app/src/main/res/layout/activity_note.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Assignment2/app/src/main/res/layout/content_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Assignment2/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Criminal Intent/CriminalIntent/app/src/main/java/kuhn/spring19/cop4656/floridapoly/criminalintent/CrimeActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Criminal Intent/CriminalIntent/app/src/main/res/layout/activity_crime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/.idea/GeoQuiz.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/.idea/caches/build_file_checksums.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/.idea/caches/gradle_models.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/androidTest/java/com/bignerdranch/android/geoquiz/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/android/geoquiz/CheatActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/android/geoquiz/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/android/geoquiz/QuizActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/res/layout/activity_cheat.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/res/layout/activity_quiz.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/app/src/test/java/com/bignerdranch/android/geoquiz/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeoQuiz/GeoQuiz/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NoteTaking_Kuhn/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../NoteTaking_Kuhn/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-19811390">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="51" />
+    <option name="y" value="23" />
+    <option name="width" value="1389" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NoteTaking_Kuhn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NoteTaking_Kuhn" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf65a986-d3dc-4a9c-af39-091a2793ff60" name="Default Changelist" comment="" />
+      <created>1550769137459</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550769137459</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="53" y="23" width="1387" height="877" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.329429" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
